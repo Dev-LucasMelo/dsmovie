@@ -1,4 +1,4 @@
-export type Movie = {
+const Movie = {
     id: number;
     title: string;
     score: number;
@@ -6,7 +6,7 @@ export type Movie = {
     image: string;
 }
 
-export type MoviePage = {
+export default MoviePage = {
     content: Movie[];
     last: boolean;
     totalPages: number;
