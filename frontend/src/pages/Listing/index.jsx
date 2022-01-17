@@ -31,10 +31,14 @@ useEffect(()=> {
     })  
 },[pageNumber])
   
+const handlePageChange = (newpage) => {
+    setPageNumber(newpage)
+}
+
     return (
         <>
         
-            <Pagination />
+            <Pagination page={page} onChange={handlePageChange} />
 
             <div className="container" >
                 <div className="row" >
