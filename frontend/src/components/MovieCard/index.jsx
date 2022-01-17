@@ -9,7 +9,7 @@ const movie = {
     score: 4.5
 };
 
-function MovieCard() {
+function MovieCard({movie}) {
     return (
         <>
             <div>
